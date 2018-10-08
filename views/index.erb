@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Caesar's Cipher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1>
+        Welcome to Caesar's Cypher
+    </h1>
+
+    <p>
+        The Caesar cipher is one of the earliest known and simplest ciphers.
+        It is a type of substitution cipher in which each letter in the plaintext
+        is 'shifted' a certain number of places down the alphabet. For example,
+        with a shift of 1, A would be replaced by B, B would become C, and so on.
+        The method is named after Julius Caesar, who apparently used it to
+        communicate with his generals.
+    </p>
+    <form>
+        <input type="text" name='inputtext'>
+        <input type="number" name='inputnumber'>
+        <input type="submit" value='Encrypt!' />
+    </form>
+    <p>
+        <%= outputtext %>
+    </p>
+
+</body>
+
+</html>
